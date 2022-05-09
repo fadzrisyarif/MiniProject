@@ -4,3 +4,10 @@
   align-items: center;
   height: 500px;
 }
+.Header{
+  background-color: #346eeb;
+}
+.Footer{
+  color: white;
+  padding: 15px;
+}

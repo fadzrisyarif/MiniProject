@@ -1,16 +1,14 @@
 import React from 'react'
-
-
-function iframe() {
-    return {
-        __html: '<iframe src="./home.html" width="540" height="450"></iframe>'
-    }
-}
-
+import { Carousel } from 'react-bootstrap'
+import Bootstrap from 'bootstrap'
+import Header from './Header'
+import Body from './Body'
+import Footer from './Footer'
 function Home() {
   return (
-    <div>
-        <div dangerouslySetInnerHTML={iframe()} />
+    <div className='Home' >
+        <Header/>
+        <Body/>
     </div> 
   )
 }
