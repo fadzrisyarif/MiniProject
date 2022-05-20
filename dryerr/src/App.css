@@ -16,5 +16,11 @@ max-width: 25rem;
 }
 .outer-order{
   border: none;
-  background-color: #346eeb;
+  background-color: #346eeb !important;
+}
+.outer-order:hover{
+  border: none !important;
+}
+.outer-order:not(:hover){
+  border: none;
 }
