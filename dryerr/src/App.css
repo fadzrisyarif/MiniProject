@@ -8,6 +8,13 @@
   background-color: #346eeb;
 }
 .Footer{
-  color: white;
+  color: whitesmoke;
   padding: 15px;
+}
+.order-btn{
+max-width: 25rem;
+}
+.outer-order{
+  border: none;
+  background-color: #346eeb;
 }

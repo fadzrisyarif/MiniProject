@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {Container, Row, Col} from 'react-bootstrap'
+import dryerrCorner from '../assets/dryerr-corner.png'
+import dryerrLogo from '../assets/dryerr-logo.png'
 
 function Navbar() {
   return (
@@ -8,10 +10,10 @@ function Navbar() {
         <Container fluid>
             <Row>
                <Col>
-                   <div class="search_icon"><img src="dryerr-corner.png"/></div>
+                   <div class="search_icon"><img src={dryerrCorner}/></div>
                </Col>
                <Col>
-                  <div class="logo"><Link to='/'><img src="dryerr-logo.png"/></Link></div>
+                  <div class="logo"><Link to='/'><img src={dryerrLogo}/></Link></div>
                </Col>
                <Col>
                   <div class="togle_3" style={{display:'flex', justifyContent:'flex-end', margin:'1rem'}}>
